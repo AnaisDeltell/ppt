@@ -12,7 +12,7 @@ public class Game {
 	}
 
 	private void welcome() {
-		System.out.println("Bienvenido a nuestro pequeño juego: Piedra Papel Tijeras Lagarto Spock :-D");
+		System.out.println("Bienvenido a nuestro pequeño juego: Piedra Papel Tijeras Torito Sepia :-D");
 	}
 
 	private void printHelp() {
@@ -78,7 +78,7 @@ public class Game {
 		System.out.println("Adios!!");
 	}
 
-	public static void main(String[] args) {
+	public static void main(String [] args) {
 		Game g = new Game();
 		g.welcome();
 		g.playGame();
